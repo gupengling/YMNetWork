@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YMPodPrivateNetWork'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of YMPodPrivateNetWork.'
 
 # This description is used to generate tags and improve search results.
@@ -41,7 +41,8 @@ TODO: Add long description of the pod here.
   #   'YMPodPrivateNetWork' => ['YMPodPrivateNetWork/Assets/*.png']
   # }
 
-  s.public_header_files = 'YMPodPrivateNetWork/Classes/**/*.h'
+  s.public_header_files = 'YMPodPrivateNetWork/Classes/*.h'
+  #s.public_header_files = 'YMPodPrivateNetWork/Classes/**/*.h'
   s.requires_arc = true
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.3'
