@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290E764521D4D2D0004E9FAC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 290E764121D4D2D0004E9FAC /* .gitkeep */; };
+		290E764621D4D2D0004E9FAC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E764221D4D2D0004E9FAC /* ReplaceMe.m */; };
+		290E764721D4D2D0004E9FAC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 290E764421D4D2D0004E9FAC /* .gitkeep */; };
+		290E764A21D4D2F6004E9FAC /* YMNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E764921D4D2F6004E9FAC /* YMNetWork.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,8 +43,13 @@
 /* Begin PBXFileReference section */
 		1C9361FCE3F9F06B9E1A9AF7 /* Pods_YMPodPrivateNetWork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMPodPrivateNetWork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7804555933E541995D4220 /* Pods-YMPodPrivateNetWork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodPrivateNetWork_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodPrivateNetWork_Tests/Pods-YMPodPrivateNetWork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		290E764121D4D2D0004E9FAC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		290E764221D4D2D0004E9FAC /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		290E764421D4D2D0004E9FAC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		290E764821D4D2F6004E9FAC /* YMNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMNetWork.h; sourceTree = "<group>"; };
+		290E764921D4D2F6004E9FAC /* YMNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetWork.m; sourceTree = "<group>"; };
 		2A5A78DEDE25D895DF016815 /* Pods-YMPodPrivateNetWork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodPrivateNetWork_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodPrivateNetWork_Example/Pods-YMPodPrivateNetWork_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		409055D009C76C04EA32FBC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		409055D009C76C04EA32FBC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4F2B8111D920E0CE40EFAE0C /* Pods-YMPodPrivateNetWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodPrivateNetWork_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodPrivateNetWork_Tests/Pods-YMPodPrivateNetWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YMPodPrivateNetWork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMPodPrivateNetWork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +74,8 @@
 		868898BD2E028BE92C5555EC /* Pods-YMPodPrivateNetWork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodPrivateNetWork_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodPrivateNetWork_Example/Pods-YMPodPrivateNetWork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE51DFE93BFD5B0126B5653A /* Pods_YMPodPrivateNetWork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMPodPrivateNetWork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8C98097B9560CF838629F28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F152FA59BD960123AA7C8BAA /* YMPodPrivateNetWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YMPodPrivateNetWork.podspec; path = ../YMPodPrivateNetWork.podspec; sourceTree = "<group>"; };
+		D8C98097B9560CF838629F28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F152FA59BD960123AA7C8BAA /* YMPodPrivateNetWork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YMPodPrivateNetWork.podspec; path = ../YMPodPrivateNetWork.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +104,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290E763F21D4D2D0004E9FAC /* YMPodPrivateNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				290E764021D4D2D0004E9FAC /* Classes */,
+				290E764321D4D2D0004E9FAC /* Assets */,
+			);
+			name = YMPodPrivateNetWork;
+			path = ../YMPodPrivateNetWork;
+			sourceTree = "<group>";
+		};
+		290E764021D4D2D0004E9FAC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				290E764121D4D2D0004E9FAC /* .gitkeep */,
+				290E764221D4D2D0004E9FAC /* ReplaceMe.m */,
+				290E764821D4D2F6004E9FAC /* YMNetWork.h */,
+				290E764921D4D2F6004E9FAC /* YMNetWork.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		290E764321D4D2D0004E9FAC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				290E764421D4D2D0004E9FAC /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				290E763F21D4D2D0004E9FAC /* YMPodPrivateNetWork */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YMPodPrivateNetWork */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -279,6 +318,8 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				290E764521D4D2D0004E9FAC /* .gitkeep in Resources */,
+				290E764721D4D2D0004E9FAC /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -380,9 +421,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290E764621D4D2D0004E9FAC /* ReplaceMe.m in Sources */,
 				6003F59E195388D20070C39A /* YMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				290E764A21D4D2F6004E9FAC /* YMNetWork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

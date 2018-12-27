@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YMPodPrivateNetWork'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of YMPodPrivateNetWork.'
 
 # This description is used to generate tags and improve search results.
@@ -23,20 +23,26 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/gupengling/YMPodPrivateNetWork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  # s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license      = {
+        :type => "Cpoyright",
+        :text => "LICENSE  ©2018 yimifudao.com, Inc. All rights reserved"
+    }
   s.author           = { 'gupengling' => 'pengling.gu@1mifudao.com' }
+  s.platform     = :ios, "7.0"
   s.source           = { :git => 'https://github.com/gupengling/YMPodPrivateNetWork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YMPodPrivateNetWork/Classes/**/*'
+  s.source_files = 'YMPodPrivateNetWork/Classes/**/*.{h,m}','YMPodPrivateNetWork/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'YMPodPrivateNetWork' => ['YMPodPrivateNetWork/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'YMPodPrivateNetWork/Classes/**/*.h'
+  s.requires_arc = true
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.3'
 end
