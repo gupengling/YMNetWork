@@ -30,18 +30,18 @@ TODO: Add long description of the pod here.
     }
   s.author           = { 'gupengling' => 'pengling.gu@1mifudao.com' }
   s.platform     = :ios, "7.0"
-  s.source           = { :git => 'https://github.com/gupengling/YMPodPrivateNetWork.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/gupengling/YMNetWork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YMPodPrivateNetWork/Classes/**/*.{h,m}','YMPodPrivateNetWork/Classes/*.{h,m}'
+  s.source_files = 'YMPodPrivateNetWork/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'YMPodPrivateNetWork' => ['YMPodPrivateNetWork/Assets/*.png']
   # }
 
-  s.public_header_files = 'YMPodPrivateNetWork/Classes/**/*.h'
+  s.public_header_files = 'YMPodPrivateNetWork/Classes/*.h'
   s.requires_arc = true
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 2.3'
