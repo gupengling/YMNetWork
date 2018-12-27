@@ -1,0 +1,6 @@
+framework module YMPodPrivateNetWork {
+  umbrella header "YMPodPrivateNetWork-umbrella.h"
+
+  export *
+  module * { export * }
+}
