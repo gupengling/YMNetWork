@@ -7,7 +7,7 @@
 //
 
 #import "YMViewController.h"
-
+#import "YMNetWork.h"
 @interface YMViewController ()
 
 @end
@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    YMNetWork *ym = [[YMNetWork alloc] init];
+    [ym test:@"dodododoodoodododododododoodo"];
 }
 
 - (void)didReceiveMemoryWarning

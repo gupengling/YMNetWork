@@ -10,6 +10,6 @@
 
 @implementation YMNetWork
 - (void)test:(NSString *)test {
-    NSLog(@"%s",__func__);
+    NSLog(@"%s ---- test= %@",__func__,test);
 }
 @end
