@@ -1,5 +1,5 @@
 //
-//  YMNetWork.h
+//  YMDoTest.h
 //  YMPodPrivateNetWork_Example
 //
 //  Created by 顾鹏凌 on 2018/12/27.
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YMNetWork : NSObject
-- (void)test:(NSString *)test;
+@interface YMDoTest : NSObject
+
 @end
 
 NS_ASSUME_NONNULL_END
