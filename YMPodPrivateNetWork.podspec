@@ -29,11 +29,11 @@ TODO: Add long description of the pod here.
         :text => "LICENSE  ©2018 yimifudao.com, Inc. All rights reserved"
     }
   s.author           = { 'gupengling' => 'pengling.gu@1mifudao.com' }
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
   s.source           = { :git => 'https://github.com/gupengling/YMNetWork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'YMPodPrivateNetWork/Classes/*.{h,m}','YMPodPrivateNetWork/Classes/**/*.{h,m}'
   
