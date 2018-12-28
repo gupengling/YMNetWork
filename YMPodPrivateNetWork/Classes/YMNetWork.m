@@ -7,7 +7,7 @@
 //
 
 #import "YMNetWork.h"
-
+#import "AFNetworking.h"
 @implementation YMNetWork
 - (void)test:(NSString *)test {
     NSLog(@"%s ---- test= %@",__func__,test);

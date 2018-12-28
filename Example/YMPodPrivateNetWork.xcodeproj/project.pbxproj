@@ -11,6 +11,9 @@
 		290E764721D4D2D0004E9FAC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 290E764421D4D2D0004E9FAC /* .gitkeep */; };
 		290E764A21D4D2F6004E9FAC /* YMNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E764921D4D2F6004E9FAC /* YMNetWork.m */; };
 		290E764E21D4E4D1004E9FAC /* YMDoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E764D21D4E4D1004E9FAC /* YMDoTest.m */; };
+		290E765221D5C8FA004E9FAC /* XYZNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E765121D5C8F9004E9FAC /* XYZNet.m */; };
+		290E765521D5CFE7004E9FAC /* DeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E765321D5CFE7004E9FAC /* DeepCopy.m */; };
+		290E765921D5D9CF004E9FAC /* NSDictionary+YMJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E765821D5D9CF004E9FAC /* NSDictionary+YMJSON.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -49,6 +52,12 @@
 		290E764921D4D2F6004E9FAC /* YMNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMNetWork.m; sourceTree = "<group>"; };
 		290E764C21D4E4D1004E9FAC /* YMDoTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMDoTest.h; sourceTree = "<group>"; };
 		290E764D21D4E4D1004E9FAC /* YMDoTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMDoTest.m; sourceTree = "<group>"; };
+		290E765021D5C8F9004E9FAC /* XYZNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZNet.h; sourceTree = "<group>"; };
+		290E765121D5C8F9004E9FAC /* XYZNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZNet.m; sourceTree = "<group>"; };
+		290E765321D5CFE7004E9FAC /* DeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepCopy.m; sourceTree = "<group>"; };
+		290E765421D5CFE7004E9FAC /* DeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepCopy.h; sourceTree = "<group>"; };
+		290E765721D5D9CF004E9FAC /* NSDictionary+YMJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YMJSON.h"; sourceTree = "<group>"; };
+		290E765821D5D9CF004E9FAC /* NSDictionary+YMJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YMJSON.m"; sourceTree = "<group>"; };
 		2A5A78DEDE25D895DF016815 /* Pods-YMPodPrivateNetWork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodPrivateNetWork_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodPrivateNetWork_Example/Pods-YMPodPrivateNetWork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		409055D009C76C04EA32FBC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4F2B8111D920E0CE40EFAE0C /* Pods-YMPodPrivateNetWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodPrivateNetWork_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodPrivateNetWork_Tests/Pods-YMPodPrivateNetWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,8 +146,14 @@
 		290E764B21D4E49B004E9FAC /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				290E765421D5CFE7004E9FAC /* DeepCopy.h */,
+				290E765321D5CFE7004E9FAC /* DeepCopy.m */,
+				290E765021D5C8F9004E9FAC /* XYZNet.h */,
+				290E765121D5C8F9004E9FAC /* XYZNet.m */,
 				290E764C21D4E4D1004E9FAC /* YMDoTest.h */,
 				290E764D21D4E4D1004E9FAC /* YMDoTest.m */,
+				290E765721D5D9CF004E9FAC /* NSDictionary+YMJSON.h */,
+				290E765821D5D9CF004E9FAC /* NSDictionary+YMJSON.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -257,6 +272,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				D9FEB3439F557EBD9D8EE178 /* [CP] Embed Pods Frameworks */,
+				290E764F21D5C0C7004E9FAC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -348,6 +364,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		290E764F21D5C0C7004E9FAC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${ACTION}\" = \"build\" ]\n\nthen\n\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\n\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\n\nif [ -d \"${INSTALL_DIR}\" ]\n\nthen\n\nrm -rf \"${INSTALL_DIR}\"\n\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\n\n#open \"${DEVICE_DIR}\"\n\nopen \"${SRCROOT}/Products\"\n\nfi\n";
+		};
 		7CAEA311C6D03BC39E006881 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,10 +408,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YMPodPrivateNetWork_Example/Pods-YMPodPrivateNetWork_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/YMPodPrivateNetWork/YMPodPrivateNetWork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YMPodPrivateNetWork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,12 +466,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290E765921D5D9CF004E9FAC /* NSDictionary+YMJSON.m in Sources */,
 				290E764621D4D2D0004E9FAC /* ReplaceMe.m in Sources */,
 				6003F59E195388D20070C39A /* YMAppDelegate.m in Sources */,
 				290E764E21D4E4D1004E9FAC /* YMDoTest.m in Sources */,
 				6003F5A7195388D20070C39A /* YMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				290E764A21D4D2F6004E9FAC /* YMNetWork.m in Sources */,
+				290E765521D5CFE7004E9FAC /* DeepCopy.m in Sources */,
+				290E765221D5C8FA004E9FAC /* XYZNet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
