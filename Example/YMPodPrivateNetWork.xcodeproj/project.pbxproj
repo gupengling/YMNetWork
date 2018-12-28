@@ -14,6 +14,7 @@
 		290E765221D5C8FA004E9FAC /* XYZNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E765121D5C8F9004E9FAC /* XYZNet.m */; };
 		290E765521D5CFE7004E9FAC /* DeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E765321D5CFE7004E9FAC /* DeepCopy.m */; };
 		290E765921D5D9CF004E9FAC /* NSDictionary+YMJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E765821D5D9CF004E9FAC /* NSDictionary+YMJSON.m */; };
+		290E76A121D607AB004E9FAC /* NSDictionary+YMArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E76A021D607AB004E9FAC /* NSDictionary+YMArray.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -58,6 +59,8 @@
 		290E765421D5CFE7004E9FAC /* DeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepCopy.h; sourceTree = "<group>"; };
 		290E765721D5D9CF004E9FAC /* NSDictionary+YMJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YMJSON.h"; sourceTree = "<group>"; };
 		290E765821D5D9CF004E9FAC /* NSDictionary+YMJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YMJSON.m"; sourceTree = "<group>"; };
+		290E769F21D607AB004E9FAC /* NSDictionary+YMArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YMArray.h"; sourceTree = "<group>"; };
+		290E76A021D607AB004E9FAC /* NSDictionary+YMArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YMArray.m"; sourceTree = "<group>"; };
 		2A5A78DEDE25D895DF016815 /* Pods-YMPodPrivateNetWork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodPrivateNetWork_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodPrivateNetWork_Example/Pods-YMPodPrivateNetWork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		409055D009C76C04EA32FBC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4F2B8111D920E0CE40EFAE0C /* Pods-YMPodPrivateNetWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMPodPrivateNetWork_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMPodPrivateNetWork_Tests/Pods-YMPodPrivateNetWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +130,7 @@
 		290E764021D4D2D0004E9FAC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				290E769E21D6077E004E9FAC /* Extentions */,
 				290E764B21D4E49B004E9FAC /* Test */,
 				290E764221D4D2D0004E9FAC /* ReplaceMe.m */,
 				290E764821D4D2F6004E9FAC /* YMNetWork.h */,
@@ -156,6 +160,15 @@
 				290E765821D5D9CF004E9FAC /* NSDictionary+YMJSON.m */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		290E769E21D6077E004E9FAC /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				290E769F21D607AB004E9FAC /* NSDictionary+YMArray.h */,
+				290E76A021D607AB004E9FAC /* NSDictionary+YMArray.m */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -472,6 +485,7 @@
 				290E764E21D4E4D1004E9FAC /* YMDoTest.m in Sources */,
 				6003F5A7195388D20070C39A /* YMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				290E76A121D607AB004E9FAC /* NSDictionary+YMArray.m in Sources */,
 				290E764A21D4D2F6004E9FAC /* YMNetWork.m in Sources */,
 				290E765521D5CFE7004E9FAC /* DeepCopy.m in Sources */,
 				290E765221D5C8FA004E9FAC /* XYZNet.m in Sources */,
